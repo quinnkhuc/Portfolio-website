@@ -1,0 +1,14 @@
+/* General rules */
+h1{
+    border-bottom: .25rem dotted #000;
+    padding-bottom: .5rem;
+}
+
+p{
+    padding-bottom: 1rem;
+}
+
+/* Specific rules */
+h1 + p{
+    padding-top: 1.5rem;
+}
