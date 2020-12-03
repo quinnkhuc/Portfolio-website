@@ -4,8 +4,9 @@ h1{
 }
 
 p{
-    text-align: center;
-    margin: 1rem auto;
+    text-align: left;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
 }
 
 /* Specific rules */

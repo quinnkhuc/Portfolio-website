@@ -4,10 +4,6 @@ h1{
     padding-bottom: .5rem;
 }
 
-p{
-    padding-bottom: 1rem;
-}
-
 /* Specific rules */
 h1 + p{
     padding-top: 1.5rem;

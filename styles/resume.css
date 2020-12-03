@@ -8,6 +8,8 @@ h2{
     font-size: 1.5rem;
     font-weight: bold;
     line-height: 2.25rem;
+    margin-left: .75rem;
+    margin-right: .75rem;
     padding-top: 1rem;
 }
 
@@ -20,8 +22,10 @@ h3{
 /* Specific rules */
 .experience-content-list li{
     font-size: 1.5rem;
+    line-height: 2.25rem;
     list-style: square;
-    margin-left: 4rem;
+    margin-left: 2rem;
+    margin-right: .75rem;
     padding-top: .5rem;
 }
 
@@ -35,6 +39,12 @@ h3{
 }
 
 #skill-list li{
+    line-height: 2.25rem;
     list-style: square;
-    margin-left: 1.5rem;
+    margin-left: 2rem;
+    margin-right: .75rem;
+}
+
+.year{
+    font-style: italic;
 }

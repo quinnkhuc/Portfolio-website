@@ -2,6 +2,7 @@
 figcaption{
     font-size: 1.5rem;
     font-weight: bold;
+    line-height: 2.25rem;
     padding-top: .5rem;
 }
 
@@ -27,6 +28,10 @@ h1{
     margin: 1rem auto;
     max-width: 30rem;
     width: 100%;
+}
+
+#content{
+    padding-bottom: 1rem;
 }
 
 .filter{

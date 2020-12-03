@@ -63,7 +63,14 @@ button{
 h1{
     font-size: 2.5rem;
     font-weight: bolder;
+    line-height: 3rem;
+    margin-left: .75rem;
+    margin-right: .75rem;
     padding-top: .5rem;
+}
+
+h2{
+    line-height: 2.25rem;
 }
 
 header{
@@ -74,18 +81,21 @@ header{
 p{
     font-size: 1.5rem;
     line-height: 2.25rem;
+    margin-left: .75rem;
+    margin-right: .75rem;
 }
 
 /* Specific rules */
 #content{
     margin: 0 auto;
-    padding-bottom: 1.5rem;
+    padding-bottom: 2rem;
     padding-top: 2rem;
     width: 88%;
 }
 
 header ul{
-    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-top: .75rem;
 }
 
 #logo{
@@ -120,17 +130,16 @@ nav li{
     font-size: 1.75rem;
     font-weight: bold;
     margin: 0 auto;
-    margin-bottom: 1.5rem;
-    padding-bottom: 1.5rem;
     text-align: center;
     width: 10rem;
+}
+
+nav li a{
+    display: block;
+    padding: 1.5rem 0;
 }
 
 /* Pseudo effects */
 #menu:hover{
     cursor: pointer;
-}
-
-nav li:hover{
-    text-transform: uppercase;
 }

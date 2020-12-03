@@ -7,10 +7,12 @@ menu.addEventListener("click", ()=>{
     if(navBar.style.display === "block"){
         navBar.style.display="none";
         content.style.paddingTop="2rem";
+        content.style.position="static";
     }
     else{
         navBar.style.display="block";
-        content.style.paddingTop="27.5rem";
+        content.style.position="relative";
+        content.style.top="27.5rem";
     }
 })
 
@@ -18,5 +20,6 @@ content.addEventListener("click", ()=>{
     if(navBar.style.display === "block"){
         navBar.style.display="none";
         content.style.paddingTop="2rem";
+        content.style.position="static";
     }
 })
